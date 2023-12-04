@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:project_cleancode/main_screen/planet_list.dart';
+import 'package:project_cleancode/main_screen/widgets/logout_button.dart';
 import 'package:project_cleancode/main_screen/widgets/search_bar.dart';
 import 'main_screen_controller.dart';
 
@@ -13,7 +14,7 @@ class MainScreen extends GetView<MainScreenController>{
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.black,
-        title: Text("Ensiklopedia Planet"),
+        title: const Text("Ensiklopedia Planet"),
       ),
       backgroundColor: Colors.black,
       body: SingleChildScrollView(
@@ -27,6 +28,11 @@ class MainScreen extends GetView<MainScreenController>{
             ),
           ],
         ),
+      ),
+      floatingActionButton: LogoutButton(
+        onPressed: () {
+          controller.logout();
+        },
       ),
     );
   }

@@ -1,4 +1,3 @@
-import 'package:flutter/animation.dart';
 import 'package:get/get.dart';
 import 'package:project_cleancode/planet_data/planet_data.dart';
 

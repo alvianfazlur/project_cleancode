@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_state_manager/src/simple/get_controllers.dart';
+import 'package:project_cleancode/Login/login_screen.dart';
 import 'package:project_cleancode/planet_data/planet_data.dart';
 
 class MainScreenController extends GetxController{
@@ -22,5 +23,9 @@ class MainScreenController extends GetxController{
   void clearSearch() {
     search.clear();
     update();
+  }
+
+  void logout(){
+    Get.offNamed(LoginScreen.routeName);
   }
 }

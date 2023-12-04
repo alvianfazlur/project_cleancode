@@ -1,4 +1,3 @@
-
 import 'package:flutter/animation.dart';
 import 'package:get/get_navigation/src/routes/get_route.dart';
 import 'package:get/get_navigation/src/routes/transitions_type.dart';

@@ -1,7 +1,6 @@
 import 'package:get/get.dart';
 import 'package:project_cleancode/detail_screen/detail_controller.dart';
 import 'package:flutter/material.dart';
-import 'dart:math' as math;
 
 class DetailScreen extends GetView<DetailScreenController>{
   const DetailScreen({Key? key}) : super(key: key);
