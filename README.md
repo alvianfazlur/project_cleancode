@@ -1,6 +1,6 @@
 # project_cleancode
 
-Project untuk clean code
+Project untuk Mata Kuliah Clean Code. Menggunakan SImple Login dengan AgileTeknik API dan terdapat fitur pencarian berdasarkan nama.
 
 ## Getting Started
 
