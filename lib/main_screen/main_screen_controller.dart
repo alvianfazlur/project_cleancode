@@ -24,8 +24,4 @@ class MainScreenController extends GetxController{
     search.clear();
     update();
   }
-
-  void logout(){
-    Get.offNamed(LoginScreen.routeName);
-  }
 }

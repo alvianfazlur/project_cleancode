@@ -29,11 +29,7 @@ class MainScreen extends GetView<MainScreenController>{
           ],
         ),
       ),
-      floatingActionButton: LogoutButton(
-        onPressed: () {
-          controller.logout();
-        },
-      ),
-    );
+      floatingActionButton: const LogoutButton(),
+      );
   }
 }
